@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotron</title>
+</head>
+<body>
+    <main>
+        <section class="robotron">
+            <section class="botoes">
+                <button class="alterar" alterar onclick="trocaImagem('Azul')">Robotron Azul</button>
+                <button class="alterar" alterar onclick="trocaImagem('Amarelo')">Robotron Amarelo</button>
+                <button class="alterar" alterar onclick="trocaImagem('Branco')">Robotron Branco</button>
+                <button class="alterar" alterar onclick="trocaImagem('Preto')">Robotron Preto</button>
+                <button class="alterar" alterar onclick="trocaImagem('Rosa')">Robotron Rosa</button>
+                <button class="alterar" alterar onclick="trocaImagem('Vermelho')">Robotron Vermelho</button>
+            </section>
+            <img class="robo" src="/img/Robotron 2000 - Azul.png" alt="Robotron">
+            <figcaption class="titulo">ROBOTRON <br>2000</figcaption>
+        </section>
+    
+    </main>
+
+    
+    <script>
+        function trocaImagem(cor){
+            document.querySelector(".robo").src="img/Robotron 2000 - " + cor + ".png";
+        }
+    </script>
+</body>
+</html>
