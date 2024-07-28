@@ -1,2 +1,1 @@
-# robotron
-manipulando o DOM com JS
+# robotron-2000
